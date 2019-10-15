@@ -11,4 +11,10 @@ dependencies: \
   /Users/admin/Desktop/Nono/app/node_modules/react-native/React/Base/RCTBridgeModule.h \
   /Users/admin/Desktop/Nono/app/node_modules/react-native/React/Base/RCTFrameUpdate.h \
   /Users/admin/Desktop/Nono/app/node_modules/react-native/React/Base/RCTInvalidating.h \
-  /Users/admin/Desktop/Nono/app/node_modules/react-native/React/Base/RCTUtils.h
+  /Users/admin/Desktop/Nono/app/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/admin/Desktop/Nono/app/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/admin/Desktop/Nono/app/node_modules/react-native/React/Views/UIView+React.h \
+  /Users/admin/Desktop/Nono/app/node_modules/react-native/React/Views/RCTComponent.h \
+  /Users/admin/Desktop/Nono/app/ios/build/Nono/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/admin/Desktop/Nono/app/ios/build/Nono/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/admin/Desktop/Nono/app/node_modules/react-native/React/Views/RCTAutoInsetsProtocol.h

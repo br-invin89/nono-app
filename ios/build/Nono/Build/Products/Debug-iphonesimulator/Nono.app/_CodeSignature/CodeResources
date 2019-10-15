@@ -10,7 +10,7 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		jk24oZys7LXDVOvJGo/t7bfd5pk=
+		o/jbPPuOt9tC+KKQq6tJsOxQ2uY=
 		</data>
 		<key>Entypo.ttf</key>
 		<data>
@@ -111,7 +111,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		9alt/P11TpfoeHsfaJRUBEyzHes=
+		lix2Zey1o3vod5Z5tAqEinBOQzc=
 		</data>
 		<key>Ionicons.ttf</key>
 		<data>
@@ -139,19 +139,19 @@
 		</data>
 		<key>PlugIns/NonoTests.xctest.dSYM/Contents/Resources/DWARF/NonoTests</key>
 		<data>
-		LlYBoQ3/cBKS8WCGfNA1G4FxmmI=
+		z20iiWSIAn0GR8n8i+/9xgSrI3c=
 		</data>
 		<key>PlugIns/NonoTests.xctest/Info.plist</key>
 		<data>
-		PJb+M2fx+l/vAPmkf/Wq3yq8AYY=
+		v3yFxeASDWCiY4sn4Ztl8JPmyxo=
 		</data>
 		<key>PlugIns/NonoTests.xctest/NonoTests</key>
 		<data>
-		8efqOKKqXMQ5xKyyMS9q1t9IBOI=
+		tMFbz/oFiYtigFn7x3JOz3b0cZs=
 		</data>
 		<key>PlugIns/NonoTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
-		EnSC8kt+WrCaWoaFHtDTxG9Fj+A=
+		OJ6tNXUfn9qw8TL9j+XeKsZ+1hQ=
 		</data>
 		<key>SimpleLineIcons.ttf</key>
 		<data>
@@ -179,11 +179,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jk24oZys7LXDVOvJGo/t7bfd5pk=
+			o/jbPPuOt9tC+KKQq6tJsOxQ2uY=
 			</data>
 			<key>hash2</key>
 			<data>
-			0NJCZI4FhhfVxjEzcXX/B/ff1teZHZD+A6aQZkJgpzQ=
+			TR8zGyPsoTURUFadl9h/0oa/Ng14visxVPhdY6GVZRU=
 			</data>
 		</dict>
 		<key>Entypo.ttf</key>
@@ -500,44 +500,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LlYBoQ3/cBKS8WCGfNA1G4FxmmI=
+			z20iiWSIAn0GR8n8i+/9xgSrI3c=
 			</data>
 			<key>hash2</key>
 			<data>
-			K9or1d6agIy0UBeDFNQyLHlevLR/xRD6PyS6nBmTLUw=
+			TA/gxBfVifQd+Dqc1tDnhTugX4cXoFeW+NMjywPJ3V8=
 			</data>
 		</dict>
 		<key>PlugIns/NonoTests.xctest/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PJb+M2fx+l/vAPmkf/Wq3yq8AYY=
+			v3yFxeASDWCiY4sn4Ztl8JPmyxo=
 			</data>
 			<key>hash2</key>
 			<data>
-			oXnqHs6AvjP5uuXJu4qs9IJyPCujoSZzt32nh/8j7SQ=
+			H8RWFFzP7BymeCW/WNrvHfsGJWhcHZWbQfJ4HWkSK28=
 			</data>
 		</dict>
 		<key>PlugIns/NonoTests.xctest/NonoTests</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8efqOKKqXMQ5xKyyMS9q1t9IBOI=
+			tMFbz/oFiYtigFn7x3JOz3b0cZs=
 			</data>
 			<key>hash2</key>
 			<data>
-			iR2wF+2v3ISNHncingAHnr1D98+/DeHJYoX3i2dFFBw=
+			FTHM1GFw10A6uZXJnIuKYjL9+i1qjPz1Oum32z0X15A=
 			</data>
 		</dict>
 		<key>PlugIns/NonoTests.xctest/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EnSC8kt+WrCaWoaFHtDTxG9Fj+A=
+			OJ6tNXUfn9qw8TL9j+XeKsZ+1hQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			o6yLl3hyKG1Xi+VIAEcYvc2gsAredSZRX7P7WZ7/kr8=
+			gEFKKKEGusrcZC6ZQIlQR/WznchKUnxqO2LBoGgAFoA=
 			</data>
 		</dict>
 		<key>SimpleLineIcons.ttf</key>

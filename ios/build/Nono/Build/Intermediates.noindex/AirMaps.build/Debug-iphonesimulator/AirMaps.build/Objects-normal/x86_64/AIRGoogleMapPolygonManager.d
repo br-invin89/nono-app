@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/admin/Desktop/Nono/node_modules/react-native-maps/lib/ios/AirGoogleMaps/AIRGoogleMapPolygonManager.m
+  /Users/admin/Desktop/Nono/app/node_modules/react-native-maps/lib/ios/AirGoogleMaps/AIRGoogleMapPolygonManager.m
