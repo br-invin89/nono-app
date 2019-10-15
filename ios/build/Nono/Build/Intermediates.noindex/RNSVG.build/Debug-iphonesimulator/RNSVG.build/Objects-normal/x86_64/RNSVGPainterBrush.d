@@ -1,0 +1,25 @@
+dependencies: \
+  /Users/admin/Desktop/Nono/node_modules/react-native-svg/ios/Brushes/RNSVGPainterBrush.m \
+  /Users/admin/Desktop/Nono/node_modules/react-native-svg/ios/Brushes/RNSVGPainterBrush.h \
+  /Users/admin/Desktop/Nono/node_modules/react-native-svg/ios/Brushes/RNSVGBrush.h \
+  /Users/admin/Desktop/Nono/node_modules/react-native-svg/ios/Brushes/RNSVGPainter.h \
+  /Users/admin/Desktop/Nono/node_modules/react-native-svg/ios/Utils/RCTConvert+RNSVG.h \
+  /Users/admin/Desktop/Nono/ios/build/Nono/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/admin/Desktop/Nono/ios/build/Nono/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/admin/Desktop/Nono/ios/build/Nono/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/admin/Desktop/Nono/ios/build/Nono/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/admin/Desktop/Nono/ios/build/Nono/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/admin/Desktop/Nono/ios/build/Nono/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/admin/Desktop/Nono/ios/build/Nono/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/admin/Desktop/Nono/ios/build/Nono/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/admin/Desktop/Nono/ios/build/Nono/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/admin/Desktop/Nono/ios/build/Nono/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/admin/Desktop/Nono/ios/build/Nono/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/admin/Desktop/Nono/ios/build/Nono/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/admin/Desktop/Nono/ios/build/Nono/Build/Products/Debug-iphonesimulator/include/yoga/YGValue.h \
+  /Users/admin/Desktop/Nono/node_modules/react-native-svg/ios/Utils/RNSVGCGFCRule.h \
+  /Users/admin/Desktop/Nono/node_modules/react-native-svg/ios/Utils/RNSVGVBMOS.h \
+  /Users/admin/Desktop/Nono/node_modules/react-native-svg/ios/Utils/RNSVGUnits.h \
+  /Users/admin/Desktop/Nono/node_modules/react-native-svg/ios/Utils/RNSVGLength.h \
+  /Users/admin/Desktop/Nono/node_modules/react-native-svg/ios/Utils/RNSVGPathParser.h \
+  /Users/admin/Desktop/Nono/node_modules/react-native-svg/ios/Brushes/RNSVGBrushType.h
