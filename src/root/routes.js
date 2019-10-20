@@ -22,7 +22,7 @@ class NonoRoutes extends Component {
 			<Router>
 				<Stack key='root' hideNavBar>
 					{SignupStack}
-					{AuthStack}					
+					{AuthStack}
 					<Stack key={'authorized'} hideNavBar initial>
 						{MapStack}
 						{ProfileStack}

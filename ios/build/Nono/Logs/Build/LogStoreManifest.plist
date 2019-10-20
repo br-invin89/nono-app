@@ -5,6 +5,71 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>0F3AEDE7-D0BE-46B5-9152-A773E08E0986</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0F3AEDE7-D0BE-46B5-9152-A773E08E0986.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Nono project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Nono</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project Nono with scheme Nono and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>593233020.21779394</real>
+			<key>timeStoppedRecording</key>
+			<real>593233022.13439</real>
+			<key>title</key>
+			<string>Building project Nono with scheme Nono and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>0F3AEDE7-D0BE-46B5-9152-A773E08E0986</string>
+		</dict>
+		<key>CD80D241-ADEA-40D3-8D5B-C611B90967AC</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>CD80D241-ADEA-40D3-8D5B-C611B90967AC.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Nono project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Nono</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project Nono with scheme Nono and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>592967612.43443203</real>
+			<key>timeStoppedRecording</key>
+			<real>592967631.03953397</real>
+			<key>title</key>
+			<string>Building project Nono with scheme Nono and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>CD80D241-ADEA-40D3-8D5B-C611B90967AC</string>
+		</dict>
+	</dict>
 </dict>
 </plist>
