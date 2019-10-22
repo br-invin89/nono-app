@@ -46,7 +46,7 @@ export default class ScreenView extends React.Component {
   }
 
   addCoupon = () => {
-    // this.props.profile.addCoupon()
+    this.props.profileActions.addCoupon()
   }
 
   adjustOnTextFocus = () => {
