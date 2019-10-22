@@ -16,7 +16,6 @@ export function* tryLogin(action) {
   try {
     const accountInfo = yield call(firebaseService.tryLogin, { phoneNumber, email, password })
     yield put({ type: types.LOGIN_DONE, payload: { accountInfo } })
-    console.log(accountInfo)
     if (accountInfo.isFirst) {
       Actions['signup_hint_find_station'] ()
     } else {

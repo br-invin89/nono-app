@@ -1,6 +1,9 @@
 import { Firebase, FirebaseRef } from '~/common/lib/firebase';
 
 export function tryLogin({ phoneNumber, email, password }) {
+  return {
+    name: 'Theo Rouilly'
+  }
   return Firebase.auth().setPersistence(Firebase.auth.Auth.Persistence.LOCAL)
   .then(() =>  
     Firebase.auth().signInWithEmailAndPassword(email, password)

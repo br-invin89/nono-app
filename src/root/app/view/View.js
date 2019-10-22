@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
-import { StyleSheet, SafeAreaView, View, StatusBar, Platform } from 'react-native';
+import { StyleSheet, SafeAreaView, View, StatusBar, Platform, AppRegistry } from 'react-native';
 import { Root } from 'native-base'
 import RootRoutes from '~/root/routes';
+import {name as appName} from '../../../../app.json';
 
 export default class AppView extends Component {
   state = {};

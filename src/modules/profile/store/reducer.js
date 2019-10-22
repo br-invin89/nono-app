@@ -1,8 +1,12 @@
 import * as types from './actionTypes';
 
 const initialState = {
+  personalInfo: {
+    name: 'KCS'
+  },
   cash: {
-    money: 0
+    money: 300,
+    couponCodeActied: false
   }
 }
 

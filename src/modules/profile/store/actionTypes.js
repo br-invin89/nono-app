@@ -1,0 +1,3 @@
+export const ADD_COUPON_REQUEST = 'profile/ADD_COUPON_REQUEST'
+export const ADD_COUPON_FAILURE = 'profile/ADD_COUPON_FAILURE'
+export const ADD_COUPON_SUCCESS = 'profile/ADD_COUPON_SUCCESS'

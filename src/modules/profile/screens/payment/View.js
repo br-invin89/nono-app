@@ -9,18 +9,8 @@ export default class ScreenView extends React.Component {
   render() {
     return (
       <View>
-        <View style={{marginTop: 200}}>
-          <TouchableOpacity onPress={this.onLogout}>
-            <Text>Logout</Text>
-          </TouchableOpacity>
-        </View>
+        <Text>Payment</Text>
       </View>
     )
   }
-
-  onLogout = () => {
-    this.props.authActions.doLogout()
-    Actions['login']()
-  }
-
 }

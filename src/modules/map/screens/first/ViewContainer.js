@@ -4,6 +4,7 @@ import { compose } from 'recompose'
 import View from './View'
 import * as AppActions from '~/root/app/store/actions'
 import * as MapActions from '../../store/actions'
+import * as AuthActions from '~/modules/auth/store/actions'
 
 const mapStateToProps = state => ({
   app: state.app || {},
@@ -13,6 +14,7 @@ const mapStateToProps = state => ({
 const mapDispatchToProps = dispatch => ({
   appActions: bindActionCreators(AppActions, dispatch),
   mapActions: bindActionCreators(MapActions, dispatch),
+  authActions: bindActionCreators(AuthActions, dispatch),
 })
 
 export default compose(

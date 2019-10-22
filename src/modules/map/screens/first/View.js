@@ -1,10 +1,11 @@
 import React from 'react'
-import { View,Text } from 'react-native'
+import { View,Text, TouchableOpacity } from 'react-native'
 import MapView from '../../common/components/MapView'
 import MapButton from '../../common/components/MapButton'
 import UnlockBox from './components/UnlockBox'
 import { W, H } from '~/common/constants'
-import Menu from '~/modules/profile/common/components/Menu'
+import Menu from '~/modules/profile/modals/menu/ViewContainer'
+import { Actions } from 'react-native-router-flux'
 
 export default class ScreenView extends React.Component {
   state = {
@@ -26,26 +27,29 @@ export default class ScreenView extends React.Component {
           position: 'relative', width: W, height: H
         }}
       >
-        <MapView
-          currentLocation={currentLocation} places={places}
-        >
-          <MapButton name='profile' 
-            onPress={
-              () => this.setState({...this.state, profileOpened: true})
-            }
-          />
-          <MapButton name='gift' />
-          <MapButton name='search' />
-          <MapButton name='refresh' />
-          <MapButton name='position' />
-        </MapView>
-        <UnlockBox onPress={this.onUnlock} _t={_t}/>
         <Menu 
           isShowable={profileOpened} 
           onClose={()=> 
             this.setState({...this.state, profileOpened: false })
           }
         />
+        <MapView
+          currentLocation={currentLocation} places={places}
+        >
+          <MapButton name='profile' 
+            onPress={() => 
+              this.setState({...this.state, profileOpened: true})
+            }
+          />
+          <MapButton name='gift' 
+            onPress={() => {
+            }}
+          />
+          <MapButton name='search' />
+          <MapButton name='refresh' />
+          <MapButton name='position' />
+        </MapView>
+        <UnlockBox onPress={this.onUnlock} _t={_t}/>
       </View>
     )
   }
