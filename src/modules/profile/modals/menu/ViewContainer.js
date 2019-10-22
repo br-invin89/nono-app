@@ -7,7 +7,6 @@ import * as ProfileActions from '../../store/actions'
 
 const mapStateToProps = state => ({
   app: state.app || {},
-  auth: state.auth || {},
   profile: state.profile || {}
 })
 
