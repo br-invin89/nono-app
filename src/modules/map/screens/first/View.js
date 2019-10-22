@@ -7,6 +7,9 @@ import SearchDialog from '../../modals/search/ViewContainer'
 import DetailDialog from '../../modals/detail/ViewContainer'
 import FinishDialog from '../../modals/finish/ViewContainer'
 import FinishTopDialog from '../../modals/finish-top/ViewContainer'
+import ReserveDialog from '../../modals/reserve/ViewContainer'
+import NearPlacesDialog from '../../modals/near-places/ViewContainer'
+import FilterDialog from '../../modals/filter/ViewContainer'
 import { W, H } from '~/common/constants'
 import Menu from '~/modules/profile/modals/menu/ViewContainer'
 import { Actions } from 'react-native-router-flux'
@@ -42,6 +45,7 @@ export default class ScreenView extends React.Component {
         />
         <MapView
           currentLocation={currentLocation} placesOnMap={placesOnMap}
+          onSelectMarker={this.openNearPlacesDialog}
         >
           <MapButton name='profile' 
             onPress={() => 
@@ -68,7 +72,7 @@ export default class ScreenView extends React.Component {
         }
         {activedModal=='detail' && 
           <DetailDialog onClose={this.closeDetailDialog} 
-            onFinish={this.openFinish}
+            onFinish={this.openFinishDialog} onReserve={this.openReserveDialog}
           />
         }
         {activedModal=='finish' && 
@@ -76,6 +80,23 @@ export default class ScreenView extends React.Component {
             <FinishTopDialog />
             <FinishDialog onFinish={this.closeFinishDialog} />
           </React.Fragment>
+        }
+        {activedModal=='reserve' && 
+          <ReserveDialog onClose={this.closeReserveDialog} 
+            onSelectPlace={this.selectPlace}
+          />
+        }
+        {activedModal=='near-places' && 
+          <NearPlacesDialog onClose={this.closeNearPlacesDialog} 
+            onSelectPlace={this.selectPlace}
+            onFinish={this.openFinishDialog} onReserve={this.openReserveDialog}
+            onOpenFilter={this.openFilterDialog}
+          />
+        }
+        {activedModal=='filter' && 
+          <FilterDialog onClose={this.closeNearPlacesDialog} 
+            onFilter={this.filterSearch}
+          />
         }
       </View>
     )
@@ -102,11 +123,39 @@ export default class ScreenView extends React.Component {
     this.setState({...this.state, activedModal: 'unlock'})
   }
 
-  openFinish = () => {
+  openFinishDialog = () => {
     this.setState({...this.state, activedModal: 'finish'})
   }
 
   closeFinishDialog = () => {
     this.setState({...this.state, activedModal: 'unlock'})
+  }
+
+  openReserveDialog = () => {
+    this.setState({...this.state, activedModal: 'reserve'})
+  }
+
+  closeReserveDialog = () => {
+    this.setState({...this.state, activedModal: 'unlock'})
+  }
+
+  openNearPlacesDialog = (index) => {
+    this.setState({...this.state, activedModal: 'near-places'})
+  }
+
+  closeNearPlacesDialog = () => {
+    this.setState({...this.state, activedModal: 'unlock'})
+  }
+
+  openFilterDialog = (index) => {
+    this.setState({...this.state, activedModal: 'filter'})
+  }
+
+  closeFilterDialog = () => {
+    this.setState({...this.state, activedModal: 'unlock'})
+  }
+
+  filterSearch = () => {
+    
   }
 }

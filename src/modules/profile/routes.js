@@ -15,10 +15,6 @@ const ProfileStack = (
       key='profile_wallet'
       hideNavBar
       component={Wallet}
-<<<<<<< HEAD
-=======
-      
->>>>>>> 7afdb2b9d88941dcd7cec30726ddf19d399bc9c2
     />
     <Scene
       key='profile_add_coupon'

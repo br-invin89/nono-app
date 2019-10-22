@@ -67,6 +67,7 @@
     "redux-storage-engine-reactnativeasyncstorage": "^1.0.5",
     "redux-thunk": "^2.3.0",
     "rn-range-slider": "^1.2.9",
+    "toggle-switch-react-native": "^2.1.0",
     "victory-native": "^33.0.0"
   },
   "devDependencies": {

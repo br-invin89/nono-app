@@ -167,7 +167,7 @@ export default class DetailInfo extends React.Component {
 
 const styles = StyleSheet.create({
   row: {
-    flexDirection: 'row', marginVertical: 10
+    flexDirection: 'row', marginVertical: 15
   },
   col1: {
     width: 50*em, alignItems: 'flex-start'

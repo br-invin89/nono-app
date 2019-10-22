@@ -4,7 +4,8 @@ const initialState = {
   places: [],
   currentLocation: null,
   placesOnMap: [],
-  place: null
+  place: null,
+  searchLimit: '1km'
 }
 
 export default function reducer(state = initialState, action) {

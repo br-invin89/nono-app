@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/admin/Desktop/NoNoNew/nono-app/node_modules/react-native/React/Profiler/RCTProfileTrampoline-arm.S \
-  /Users/admin/Desktop/NoNoNew/nono-app/node_modules/react-native/React/Base/RCTDefines.h \
-  /Users/admin/Desktop/NoNoNew/nono-app/node_modules/react-native/React/DevSupport/RCTInspectorDevServerHelper.h \
-  /Users/admin/Desktop/NoNoNew/nono-app/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
-  /Users/admin/Desktop/NoNoNew/nono-app/node_modules/react-native/React/Profiler/RCTMacros.h
+  /Users/admin/Desktop/Nono/app/node_modules/react-native/React/Profiler/RCTProfileTrampoline-arm.S \
+  /Users/admin/Desktop/Nono/app/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/admin/Desktop/Nono/app/node_modules/react-native/React/DevSupport/RCTInspectorDevServerHelper.h \
+  /Users/admin/Desktop/Nono/app/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
+  /Users/admin/Desktop/Nono/app/node_modules/react-native/React/Profiler/RCTMacros.h

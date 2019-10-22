@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/admin/Desktop/NoNoNew/nono-app/node_modules/react-native-maps/lib/ios/AirGoogleMaps/AIRGoogleMapCircleManager.m
+  /Users/admin/Desktop/Nono/app/node_modules/react-native-maps/lib/ios/AirGoogleMaps/AIRGoogleMapCircleManager.m

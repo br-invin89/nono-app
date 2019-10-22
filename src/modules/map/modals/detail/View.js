@@ -1,7 +1,7 @@
 import React from 'react'
 import Dialog2Wrapper from '../../common/wrappers/Dialog2Wrapper'
 import { View } from 'react-native'
-import { Button } from '~/common/components'
+import { Button, Spacer } from '~/common/components'
 import { colors, W, H } from '~/common/constants'
 import DetailInfo from './components/DetailInfoContainer'
 import ActionBar from './components/ActionBarContainer'
@@ -22,7 +22,8 @@ export default class Dialog extends React.Component {
         {place &&
         <Dialog2Wrapper onClose={this.props.onClose}>
           <DetailInfo data={place} />
-          <ActionBar data={place} onFinish={this.props.onFinish} />
+          <Spacer size={20} />
+          <ActionBar data={place} onFinish={this.props.onFinish} onReserve={this.props.onReserve}/>
         </Dialog2Wrapper>
         }        
       </React.Fragment>

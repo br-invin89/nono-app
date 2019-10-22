@@ -25,13 +25,13 @@ export default class ActionBar extends React.Component {
             textColor='#fff'
             bgGradientStart='#ff52a8' bgGradientEnd='#ffdf00'
             caption={data.distance}
-            onPress={this.props.onFinish}
+            onPress={() => this.props.onFinish()}
           />          
         </View>
         <View style={{ width: 130*em }}>
           <Button 
             bgColor='transparent' textColor='#ff52a8'
-            caption={_t('Book')} 
+            caption={_t('Book')} onPress={() => this.props.onReserve()}
           />          
         </View>
         
