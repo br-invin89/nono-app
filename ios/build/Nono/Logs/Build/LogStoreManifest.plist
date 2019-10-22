@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>1E66C74E-8E88-49C1-B197-5AE43174F337</key>
+		<key>991FD5A8-F92B-49A7-BB0C-5C2A30CB8A11</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,11 +15,11 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>1E66C74E-8E88-49C1-B197-5AE43174F337.xcactivitylog</string>
+			<string>991FD5A8-F92B-49A7-BB0C-5C2A30CB8A11.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>S</string>
+				<string>W</string>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>Nono project</string>
@@ -30,45 +30,13 @@
 			<key>signature</key>
 			<string>Building project Nono with scheme Nono and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>593388842.03689098</real>
+			<real>593421489.87662196</real>
 			<key>timeStoppedRecording</key>
-			<real>593388843.66145599</real>
+			<real>593421491.90515196</real>
 			<key>title</key>
 			<string>Building project Nono with scheme Nono and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>1E66C74E-8E88-49C1-B197-5AE43174F337</string>
-		</dict>
-		<key>5C1069A1-8949-4831-9693-EF45EBB8788E</key>
-		<dict>
-			<key>className</key>
-			<string>IDECommandLineBuildLog</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>5C1069A1-8949-4831-9693-EF45EBB8788E.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Nono project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Nono</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Building project Nono with scheme Nono and configuration Debug</string>
-			<key>timeStartedRecording</key>
-			<real>593388972.26829803</real>
-			<key>timeStoppedRecording</key>
-			<real>593388973.69372106</real>
-			<key>title</key>
-			<string>Building project Nono with scheme Nono and configuration Debug</string>
-			<key>uniqueIdentifier</key>
-			<string>5C1069A1-8949-4831-9693-EF45EBB8788E</string>
+			<string>991FD5A8-F92B-49A7-BB0C-5C2A30CB8A11</string>
 		</dict>
 	</dict>
 </dict>

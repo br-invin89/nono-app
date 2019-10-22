@@ -1,10 +1,10 @@
+const histories = require('./histories.json')
+
 export function addCoupon({ couponCode }) {
   return { result: 'success' }
 }
 
 
-export function getHistories() {
-  return [
-    
-  ]
+export function loadHistories() {
+  return histories;
 }
