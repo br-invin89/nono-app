@@ -9,6 +9,7 @@
   "places": [
     {
       "name": "Place 1",
+      "isOpened": true,
       "coords": {
         "latitude": 37.351996988,
         "longitude": -122.0425472123455
@@ -16,6 +17,7 @@
     },
     {
       "name": "Place 2",
+      "isOpened": false,
       "coords": {
         "latitude": 37.301996988,
         "longitude": -122.0525472123455

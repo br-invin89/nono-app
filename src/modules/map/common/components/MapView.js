@@ -51,17 +51,25 @@ export default class CustomMapView extends React.Component {
     )
   }
   renderMarkers() {
-    const { places } = this.props
+    const { placesOnMap } = this.props
 
     return (
       <>
-        {places.map((place, i) => (
+        {placesOnMap.map((place, i) => (
           <MapView.Marker key={i} title={place.name} coordinate={place.coords}>
+            {place.isOpened ?
             <Image source={require('~/common/assets/images/png/pin-open.png')} 
               style={{
                 width: 40, height: 40
               }}
             />
+            :
+            <Image source={require('~/common/assets/images/png/pin-close.png')} 
+              style={{
+                width: 40, height: 40
+              }}
+            />
+            }            
           </MapView.Marker>
         ))}
       </>

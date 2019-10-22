@@ -1,10 +1,10 @@
-const stations = require('./test-stations.json')
-const gmarkers = require('./test-gmarkers.json')
+const places = require('./test-stations.json')
+const placesOnMap = require('./test-gmarkers.json')
 
-export function searchStationGmap() {
-  return gmarkers
+export function searchPlacesOnMap() {
+  return placesOnMap
 }
 
-export function searchStations() {
-  return stations
+export function searchPlaces() {
+  return { places }
 }

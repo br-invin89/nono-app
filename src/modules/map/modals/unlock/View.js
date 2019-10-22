@@ -1,15 +1,16 @@
 import React from 'react'
-import BoxWrapper from '../../../common/wrappers/BoxWrapper'
+import DialogWrapper from '../../common/wrappers/DialogWrapper'
 import { View } from 'react-native'
-import { Button } from '~/common/components'
+import { Button, Spacer } from '~/common/components'
 import { colors, W } from '~/common/constants'
 
-export default class UnlockBox extends React.Component {
+export default class Dialog extends React.Component {
   render() {
-    const { _t, onPress } = this.props
+    const { onPress } = this.props
+    const { _t } = this.props.appActions
 
     return (
-      <BoxWrapper>
+      <DialogWrapper>
         <Button
           bgColor={colors.primaryBackground}
           textColor={'#fff'}
@@ -17,7 +18,8 @@ export default class UnlockBox extends React.Component {
           caption={_t('Unlocks a nono')}
           onPress={onPress}
         />
-      </BoxWrapper>
+        <Spacer size={30} />
+      </DialogWrapper>
     )
   }
 }

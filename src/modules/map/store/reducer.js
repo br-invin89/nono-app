@@ -3,21 +3,32 @@ import * as types from './actionTypes'
 const initialState = {
   places: [],
   currentLocation: null,
-  searchedStations: [],
+  placesOnMap: [],
+  place: null
 }
 
 export default function reducer(state = initialState, action) {
-  switch(action.type) {
-    case types.SEARCH_MARKERS_DONE:
+  switch(action.type) {    
+    case types.LOAD_PLACES_ON_MAP_SUCCESS:
       return {
         ...state,
         currentLocation: action.payload.currentLocation,
-        places: action.payload.places
+        placesOnMap: action.payload.places
       }
-    case types.SEARCH_DONE:
+    case types.SEARCH_PLACES_REQUEST:
       return {
         ...state,
-        searchedStations: action.payload.stations
+        places: []
+      }
+    case types.SEARCH_PLACES_SUCCESS:
+      return {
+        ...state,
+        places: action.payload.places
+      }
+    case types.SELECT_PLACE:
+      return {
+        ...state,
+        place: state.places[action.payload.index]
       }
     default:
       return state

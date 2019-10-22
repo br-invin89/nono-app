@@ -10,12 +10,11 @@ import AddCoupon from './screens/add-coupon/ViewContainer'
 
 
 const ProfileStack = (
-  <Stack key={'profile'} initial>
+  <Stack key={'profile'} >
     <Scene 
       key='profile_wallet'
       hideNavBar
       component={Wallet}
-      initial
     />
     <Scene
       key='profile_add_coupon'
