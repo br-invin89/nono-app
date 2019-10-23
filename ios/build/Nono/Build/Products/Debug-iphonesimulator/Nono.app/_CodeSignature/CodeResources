@@ -8,9 +8,13 @@
 		<data>
 		TneGhDkoD7Q01Gl8e5EScUBsgfM=
 		</data>
-		<key>Base.lproj/LaunchScreen.nib</key>
+		<key>Base.lproj/LaunchScreen.nib/objects-13.0+.nib</key>
 		<data>
-		u5N9yQjFmJYgMAPMKm9831zvI2Q=
+		5JATBDBgY9R1EymBYUDN3uCWsZE=
+		</data>
+		<key>Base.lproj/LaunchScreen.nib/runtime.nib</key>
+		<data>
+		EVaqxHAA+3Q+Vy7qzS7SrV3wGiE=
 		</data>
 		<key>Entypo.ttf</key>
 		<data>
@@ -111,7 +115,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		lix2Zey1o3vod5Z5tAqEinBOQzc=
+		QNbQ4/YjqcMS7p4QUT5JwdjAvqs=
 		</data>
 		<key>Ionicons.ttf</key>
 		<data>
@@ -139,7 +143,7 @@
 		</data>
 		<key>PlugIns/NonoTests.xctest.dSYM/Contents/Resources/DWARF/NonoTests</key>
 		<data>
-		z20iiWSIAn0GR8n8i+/9xgSrI3c=
+		4PgpmaX0v1jjcMpsKG1BbU3p3jk=
 		</data>
 		<key>PlugIns/NonoTests.xctest/Info.plist</key>
 		<data>
@@ -147,7 +151,7 @@
 		</data>
 		<key>PlugIns/NonoTests.xctest/NonoTests</key>
 		<data>
-		7mcdfyIa4p+FGAvcMwYPxGOByho=
+		O3nFT1eBRLmSOXBPa9yWb/enqhc=
 		</data>
 		<key>PlugIns/NonoTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
@@ -175,15 +179,26 @@
 			eVXKFBJ7MEEsEU6xPP1wK12rJl/rGIDRaV1zyqgkzeE=
 			</data>
 		</dict>
-		<key>Base.lproj/LaunchScreen.nib</key>
+		<key>Base.lproj/LaunchScreen.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			u5N9yQjFmJYgMAPMKm9831zvI2Q=
+			5JATBDBgY9R1EymBYUDN3uCWsZE=
 			</data>
 			<key>hash2</key>
 			<data>
-			LpOzlSRrB/MRQkHprnGdXnzaG3VYxidc3Z6Br879hvw=
+			RK5Wl4UQkxIQdzds/S8hzvo+8P2E4vcOWE1iFnFXG3s=
+			</data>
+		</dict>
+		<key>Base.lproj/LaunchScreen.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EVaqxHAA+3Q+Vy7qzS7SrV3wGiE=
+			</data>
+			<key>hash2</key>
+			<data>
+			THPpYnw1+Ff9KqhW5BOYGoURau2Up1yYaznai6HVwIw=
 			</data>
 		</dict>
 		<key>Entypo.ttf</key>
@@ -500,11 +515,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			z20iiWSIAn0GR8n8i+/9xgSrI3c=
+			4PgpmaX0v1jjcMpsKG1BbU3p3jk=
 			</data>
 			<key>hash2</key>
 			<data>
-			TA/gxBfVifQd+Dqc1tDnhTugX4cXoFeW+NMjywPJ3V8=
+			JwwAl0XSAM9EnYqZzd+zhlex18OKh+gcqu7Mk5BugWw=
 			</data>
 		</dict>
 		<key>PlugIns/NonoTests.xctest/Info.plist</key>
@@ -522,11 +537,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7mcdfyIa4p+FGAvcMwYPxGOByho=
+			O3nFT1eBRLmSOXBPa9yWb/enqhc=
 			</data>
 			<key>hash2</key>
 			<data>
-			98jSiYpy+pgqX1mCqHT231zLV0vx2q/gamzvgj7ks3Q=
+			34J4VlupEhLKcy3Jlpa1QD+NNP5fkiUX1jV9GUm/AoQ=
 			</data>
 		</dict>
 		<key>PlugIns/NonoTests.xctest/_CodeSignature/CodeResources</key>

@@ -10,6 +10,8 @@ import FinishTopDialog from '../../modals/finish-top/ViewContainer'
 import ReserveDialog from '../../modals/reserve/ViewContainer'
 import NearPlacesDialog from '../../modals/near-places/ViewContainer'
 import FilterDialog from '../../modals/filter/ViewContainer'
+import RentDialog from '../../modals/rent/ViewContainer'
+import FeedbackDialog from '../../modals/feedback/ViewContainer'
 import { W, H } from '~/common/constants'
 import Menu from '~/modules/profile/modals/menu/ViewContainer'
 import { Actions } from 'react-native-router-flux'
@@ -23,6 +25,13 @@ export default class ScreenView extends React.Component {
 
   componentDidMount() {
     this.props.mapActions.loadPlacesOnMap()
+    const { initialModal } = this.props
+    if (initialModal) {
+      this.setState({
+        ...this.state,
+        activedModal: initialModal
+      })
+    }
   }
 
   render() {
@@ -63,7 +72,7 @@ export default class ScreenView extends React.Component {
         </MapView>
         <Spacer size={20} />
         {activedModal=='unlock' && 
-          <UnlockDialog />
+          <UnlockDialog onGoScan={this.goScan} />
         }
         {activedModal=='search' && 
           <SearchDialog onCancel={this.closeSearchDialog} 
@@ -98,6 +107,13 @@ export default class ScreenView extends React.Component {
             onFilter={this.filterSearch}
           />
         }
+        {activedModal=='rent' && 
+          <RentDialog onBuy={this.openFeedbackDialog} onDeposit={this.openFeedbackDialog} />
+        }
+        {activedModal=='feedback' && 
+          <FeedbackDialog onClose={this.closeFeedbackDialog} />
+        }
+        
       </View>
     )
   }
@@ -157,5 +173,17 @@ export default class ScreenView extends React.Component {
 
   filterSearch = () => {
     
+  }
+
+  openFeedbackDialog = () => {
+    this.setState({...this.state, activedModal: 'feedback'})
+  }
+
+  closeFeedbackDialog = () => {
+    this.setState({...this.state, activedModal: 'unlock'})
+  }
+
+  goScan = () => {
+    Actions['map_enter_code']()
   }
 }
