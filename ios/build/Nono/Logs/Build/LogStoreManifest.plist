@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>21842D6B-37D0-41E5-BE05-63AC7DB626AA</key>
+		<key>160D35E9-F8B3-4854-AB62-0A5F53D50A50</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,41 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>21842D6B-37D0-41E5-BE05-63AC7DB626AA.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Nono project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Nono</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Building project Nono with scheme Nono and configuration Debug</string>
-			<key>timeStartedRecording</key>
-			<real>593501117.82201898</real>
-			<key>timeStoppedRecording</key>
-			<real>593501332.48628104</real>
-			<key>title</key>
-			<string>Building project Nono with scheme Nono and configuration Debug</string>
-			<key>uniqueIdentifier</key>
-			<string>21842D6B-37D0-41E5-BE05-63AC7DB626AA</string>
-		</dict>
-		<key>2A6CE53C-1853-4BBC-B8CE-270BD92813C6</key>
-		<dict>
-			<key>className</key>
-			<string>IDECommandLineBuildLog</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>2A6CE53C-1853-4BBC-B8CE-270BD92813C6.xcactivitylog</string>
+			<string>160D35E9-F8B3-4854-AB62-0A5F53D50A50.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -66,13 +32,47 @@
 			<key>signature</key>
 			<string>Building project Nono with scheme Nono and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>593509776.64746594</real>
+			<real>593527867.94542503</real>
 			<key>timeStoppedRecording</key>
-			<real>593509781.46287</real>
+			<real>593527872.30391204</real>
 			<key>title</key>
 			<string>Building project Nono with scheme Nono and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>2A6CE53C-1853-4BBC-B8CE-270BD92813C6</string>
+			<string>160D35E9-F8B3-4854-AB62-0A5F53D50A50</string>
+		</dict>
+		<key>FECD33CC-F791-4D1C-8F36-07D99D130E0F</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FECD33CC-F791-4D1C-8F36-07D99D130E0F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Nono project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Nono</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project Nono with scheme Nono and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>593519494.88615203</real>
+			<key>timeStoppedRecording</key>
+			<real>593519499.49739099</real>
+			<key>title</key>
+			<string>Building project Nono with scheme Nono and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>FECD33CC-F791-4D1C-8F36-07D99D130E0F</string>
 		</dict>
 	</dict>
 </dict>

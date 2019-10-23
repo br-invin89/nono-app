@@ -7,3 +7,5 @@ export const ADD_COUPON_SUCCESS = 'profile/ADD_COUPON_SUCCESS'
 export const LOAD_HISTORY_REQUEST = 'profile/LOAD_HISTORY_REQUEST'
 export const LOAD_HISTORY_FAILURE = 'profile/LOAD_HISTORY_FAILURE'
 export const LOAD_HISTORY_SUCCESS = 'profile/LOAD_HISTORY_SUCCESS'
+
+export const SELECT_HISTORY = 'profile/SELECT_HISTORY'

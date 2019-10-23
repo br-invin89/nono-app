@@ -143,8 +143,11 @@ export default {
   'TOTAL': 'TOTAL',
   'Add a Lydia account': 'Ajoute un compte Lydia',
   'Add Apple Pay': 'Ajoute Apple Pay',
+  'Place of taking': 'Lieu de prise',
+  'Place of deposit': 'Lieu de dépôt',
 
   'Settings': 'Paramètres',
+  'Name': 'Nom',
   'Telephone': 'Téléphone',
   'Email': 'Email',
   'Birth date': 'Date de naissance',

@@ -2,7 +2,10 @@ import * as types from './actionTypes';
 
 const initialState = {
   personalInfo: {
-    name: 'KCS'
+    name: 'Theo Rouilly',
+    phone: '32 30 22 144 3331',
+    email: 'theorouilly@nono.fr',
+    birthDate: '18/06/2000'
   },
   cash: {
     money: 300,
@@ -18,11 +21,14 @@ export default function reducer(state = initialState, action) {
     case types.ADD_COUPON_SUCCESS:
       return addCoupon(state, action.payload.couponCode)
     case types.LOAD_HISTORY_SUCCESS:
-      console.log('ewdewdedwwdw')
-      console.log(action.payload.histories)
       return {
         ...state,
         histories: action.payload.histories
+      }
+    case types.SELECT_HISTORY:
+      return {
+        ...state,
+        history: state.histories[action.payload.index]
       }
     default: 
       return state

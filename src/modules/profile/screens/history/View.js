@@ -16,17 +16,22 @@ export default class ScreenView extends React.Component {
     const { histories } = this.props.profile;
     return (
       <ProfileWrapper>
-        <ProfileHeader title={_t('History')} onPress={this.goSummary} />
+        <ProfileHeader title={_t('History')} onPress={this.goBack} />
         <ScrollView style={{height: Platform.OS=='ios'?H-60:H-40}}>
           {histories.map((history, k) => (
-            <HistoryListItem history={history} key={k} />
+            <HistoryListItem history={history} key={k} onPress={() => this.goSummary(k)}/>
           ))}
         </ScrollView>
       </ProfileWrapper>
     )
   }
 
-  goSummary = () => {
-    Actions['summary']()
+  goBack = () => {
+    Actions.map()
+    Actions['map_first']()
+  }
+  goSummary = (index) => {
+    this.props.profileActions.selectHistory(index)
+    Actions['profile_history_summary']()
   }
 }

@@ -14,3 +14,10 @@ export function loadHistories(histories) {
     payload: { histories }
   }
 }
+
+export function selectHistory(index) {
+  return {
+    type: types.SELECT_HISTORY,
+    payload: { index }
+  }
+}

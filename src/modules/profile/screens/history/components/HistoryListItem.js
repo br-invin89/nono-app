@@ -7,6 +7,7 @@ export default class HistoryListItem extends React.Component {
     const history = this.props.history;
     return (
       <TouchableOpacity style={{ marginVertical: 13, marginLeft:14 }}
+        onPress={this.props.onPress}
       >        
         <View style={{flexDirection: 'row', justifyContent: "space-between"}}>
           <Text style={{color: '#9F9F9F', fontSize: 17}}>

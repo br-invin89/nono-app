@@ -135,8 +135,8 @@ export default class Dialog extends React.Component {
             borderRadius: 20, width: '100%', height: 90,
             backgroundColor: 'rgba(191, 191, 196, 0.1)', color: '#9f9f9f',
             textAlign: 'center', fontSize: 15
-          }} multiline={true} numberOfLines={3}
-            onFous={this.adjustOnFocus} onBlur={this.adjustOnBlur}
+          }} 
+            onFocus={this.adjustOnFocus} onBlur={this.adjustOnBlur}
           />
           }
         </View>
@@ -163,7 +163,8 @@ export default class Dialog extends React.Component {
   }
 
   adjustOnFocus = () => {
-    this.setState({...this.state, adjust: {marginBottom: 320}})
+    console.log('asdasd')
+    this.setState({...this.state, adjust: {marginBottom: 280}})
   }
   adjustOnBlur = () => {
     this.setState({...this.state, adjust: {marginBottom: 0}})
